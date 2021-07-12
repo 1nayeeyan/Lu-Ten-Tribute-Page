@@ -1,0 +1,61 @@
+
+@font-face {
+    src: url(../fonts/Herculanum.woff) format('woff');
+    font-family: Herculanum;
+}
+@font-face {
+    font-family: Herculanum;
+    src: url(../fonts/Herculanum.tff.ttf) format('ttf');
+}
+#title {
+    text-align: center;
+    font-family: Herculanum;
+    font-size: 100px;
+    background-color: white;
+    margin: -10px;
+}
+
+.beige-background-color{
+    background-color: black;
+    padding: 50px 0px 50px 0px;
+}
+
+
+#img-caption{
+    text-align: center;
+    font-family: Herculanum;
+    font-weight: 700;
+    color: white;
+}
+
+#tribute-info{
+    text-align: center;
+    font-family: Herculanum;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 40px;
+}
+
+#image {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#lyrics{
+    font-family: Herculanum;
+    font-size: 40px;
+    color: white;
+}
+
+.lyricimg{
+    background-image: url(../images/SadIroh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 592px;
+    position: relative;
+    left: 400px;
+}
